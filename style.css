@@ -187,11 +187,14 @@ a
         {
             width: 300px;
             box-shadow: #1e7db0 0px 0px 10px 3px;
-            /* border-radius: 90%; */
-            /* border-radius: 232px 50px 232px 50px / 133px 25px 133px 25px; */
             border-radius: 100% 100% 100% 7%;
-            /* height: 0%; */
-            /* position: absolute; */
+        }
+        .m-text h1
+        {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #ffffff;
+        
         }
     }
     .profession
@@ -298,7 +301,7 @@ a
     --color: 69,159, 209;
     border-radius: .5em;
     transition: .3s;
-    background-color: rgba(var(--color), .2);
+    background-color: transparent;
     color: rgb(var(--color));
     fill: rgb(var(--color));
     font-family: monospace;
@@ -463,7 +466,14 @@ a
     {
         height: 95%;
         width: 95%;
-    }  
+    }
+    .m-text
+    {
+        /* border: #459fd1 2px solid; */
+        border-radius: 35px;
+        box-shadow: #1e7db0 0px 0px 10px 7px;
+        margin-left: 15px;
+    }
   }
 
   
