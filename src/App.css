@@ -1,55 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+/* @import "tailwindcss"; */
 
-.App {
-  width: 100%;
-  height: 100%;
+.Header {
+  width: 90%;
+  height: 40px;
+  margin-top: 22px;
   display: flex;
   text-align: center;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
+  /* flex-direction: column; */
 
 }
 
-.App-logo {
-  height: 40vmin;
+.H-title
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 214px;
+  height: 40px;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #6A59BC;
+  border-radius: 10px;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.f-title
+{
+  font-family: "Electrolize", sans-serif;
+  font-weight: normal;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 166px;
+  height: 39px;
+  font-size: 28px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* --------------------------------------------- */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.title
+.H-menu
 {
-  font-family: "Electrolize", sans-serif;
-  font-weight: bolder;
-  font-style: normal;
-  color: #6a59bc;
+  width: 375px;
+  height: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.H-menu *
+{
+  cursor: pointer;
+}
+
+.f-menu
+{
+  color: #5454D4;
+  font-size: 18px;
+  font-weight: normal;
+  width: 48px;
+  height: 28px;
+}
+
+.s-menu
+{
+  color: #ffffffc3;
+  font-size: 18px;
+  font-weight: normal;
+  width: 91px;
+  height: 28px;
+}
+
+.l-menu
+{
+  width: 156px;
+  height: 28px;
+  border-radius: 10px;
+  background-color: #5454D4;
+  box-shadow: 4px 4px 4px #5454d456;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.l-menu p
+{
+  font-size: 16px;
+  font-weight: bold;
+  width: 94px;
+  height: 22px;
 }
